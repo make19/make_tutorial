@@ -133,7 +133,7 @@ add_executable(hello_world src/hello_world.cpp)
 add_dependencies(hello_world ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
  target_link_libraries(hello_world ${catkin_LIBRARIES})
 
-add_executable(publisher src/publisher.cpp)
-add_dependencies(publisher ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-target_link_libraries(publisher ${catkin_LIBRARIES})
+add_executable(turtle_controller src/turtle_controller.cpp)
+add_dependencies(turtle_controller ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(turtle_controller ${catkin_LIBRARIES})
 
