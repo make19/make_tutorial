@@ -103,7 +103,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES rosenrot_tutorial
+#  LIBRARIES make_tutorial
 #  CATKIN_DEPENDS roscpp
 #  DEPENDS system_lib
 )
@@ -121,7 +121,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/rosenrot_tutorial.cpp
+#   src/${PROJECT_NAME}/make_tutorial.cpp
 # )
 
 ## Add cmake target dependencies of the library
